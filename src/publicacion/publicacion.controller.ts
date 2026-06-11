@@ -5,7 +5,8 @@ interface Publicacion{
     "titulo": "Titulo de la publicacion",
     "descripcion":"Descripcion de la publicacion",
     "imagen":"publi.png",
-    "estado":true
+    "estado":true,
+    "otro":true
 }
 
 

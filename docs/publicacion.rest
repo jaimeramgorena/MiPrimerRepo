@@ -1,0 +1,35 @@
+### Listar
+
+GET http://127.0.0.1:3000/publicacion
+
+### Guardar
+POST http://127.0.0.1:3000/publicacion
+Content-Type: application/json
+Accept: application/json
+
+{
+    "titulo": "Titulo de la publicacion",
+    "descripcion":"Descripcion de la publicacion",
+    "imagen":"publi.png",
+    "estado":true
+}
+
+### Mostar
+GET http://127.0.0.1:3000/publicacion/155
+Accept: application/json
+
+### Modificar
+PUT http://127.0.0.1:3000/publicacion/155
+Content-Type: application/json
+
+{
+    "titulo": "Titulo de la publicacion",
+    "descripcion":"Descripcion de la publicacion",
+    "imagen":"publi.png",
+    "estado":true
+}
+
+### Eliminar
+DELETE  http://127.0.0.1:3000/publicacion/155
+
+
